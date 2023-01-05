@@ -1,0 +1,39 @@
+.features{
+    background: #F2F8FF;
+    height: 70vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    gap: 5rem;
+    margin: auto;
+}
+.get-started{
+   margin: auto;
+}
+.get-started span{
+   margin-right: 25px;
+}
+.get-started p {
+   margin: 20px 0;
+}
+.get-started li {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    list-style: none;
+    line-height: 3rem;
+}
+.video-service{
+    margin: auto;
+}
+.video{
+    border: 5px solid #094AAD;
+    border-radius: 5px;
+    max-width: 400px;
+}
+
+.our-service{
+  margin-top: 50px;
+  margin-left: 100px;
+  align-content: center;
+}

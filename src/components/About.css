@@ -1,0 +1,34 @@
+.about-us{
+    background: #f7f6f6;
+    height: 70vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    gap: 5rem;
+}
+.who{
+    width:max-content;
+    margin: auto;
+}
+.who-we-are{
+    color: #094AAD;
+    margin-bottom: 25px;
+}
+.about-us h2 {
+    margin-bottom: 10px;
+}
+.about-us p {
+    margin-bottom: 10px;
+}
+.video{
+    border: 5px solid #094AAD;
+    margin: auto;
+    border-radius: 5px;
+    max-width: 600px;
+}
+
+summary{
+    color: #094AAD;
+}
