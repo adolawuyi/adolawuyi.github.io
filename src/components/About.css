@@ -40,4 +40,10 @@ summary{
     {
         padding-top: 15px;
     }
+    .who p {
+        font-size: medium;
+    }
+    .who-we-are{
+        margin: 25px;
+    }
 }

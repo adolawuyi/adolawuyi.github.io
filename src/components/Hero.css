@@ -6,7 +6,7 @@
     display: flex;
     justify-content: space-between;
     padding: 0 100px;
-    margin-top: 60px;
+    margin-top: 20px;
     gap: 2rem;
 }
 
@@ -41,7 +41,7 @@ font-weight: 700;
 margin-left: 10px;
 }
 .hero img{
-    margin-top: 75px;
+    margin-top: 100px;
     width: 400px;
 }
 .hero .button{
@@ -63,7 +63,9 @@ width: 100%;
 padding: 0rem;
 width: 90vw;
 }
-
+.hero-img{
+    display: none;
+}
 
 }
     

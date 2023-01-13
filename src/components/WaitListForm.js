@@ -32,16 +32,6 @@ const WaitListForm = ({submitForm}) => {
                     />
                     {errors.email && <p className='error'>{errors.email}</p>}
                 </div>
-                <div className='phonenumber'>
-                    <label className='label'>Phone Number</label>
-                    <input className='input' 
-                    type='tel' 
-                    name='tel' 
-                    value={values.tel}
-                    onChange={handleChange}
-                    />
-                    {errors.tel && <p className='error'>{errors.tel}</p>}
-                </div>
                 <div className='submit' onClick={handleFormSubmit}>Join</div>
             </form>
         </div>

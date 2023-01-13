@@ -6,8 +6,6 @@ const useForm = (submitForm) => {
 const [values, setValues] = useState({
     fullname: "",
     email: "",
-    tel: "",
-
 });
 
 const [errors, setErrors] = useState ({});
