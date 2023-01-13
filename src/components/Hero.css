@@ -9,6 +9,7 @@
     margin-top: 60px;
     gap: 2rem;
 }
+
 .hero:before {
     content: '';
     background: url(./images/headerbg.png) no-repeat center center/cover;
@@ -63,12 +64,6 @@ padding: 0rem;
 width: 90vw;
 }
 
-.hero .content .heroh1 {
-    font-size: 2.5rem;
-}
-.hero .content .herop {
-    font-size: 1.2rem;
-}
 
 }
     

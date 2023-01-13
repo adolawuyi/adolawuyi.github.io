@@ -6,9 +6,9 @@ import amazon from './video/amazon.mp4'
 
 export default function About(){
     return (
-    <div className='about-us'>
+    <div className='about-us' id='about'>
         <div className="video">
-        <Video autoPlay loop >
+        <Video autoPlay  >
             <source src={amazon} type='video/webm'/>
         </Video>
         </div>

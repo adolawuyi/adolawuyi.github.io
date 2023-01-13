@@ -6,7 +6,8 @@ import ModalDialog from './ModalDialog'
 
 const Hero = () => {
   return (
-    <div className='hero'>
+    <section>
+    <div className='hero' id='hero'>
         <div className='content'>
             <h1 className='heroh1'> Get Easily Connected</h1>
             <h1 className='heroh'>to nearby Quality Service</h1>
@@ -17,6 +18,7 @@ const Hero = () => {
         <a href="/" className='hero-img'> <img src={imghero} alt='herologo' /></a>
         </div>
     </div>
+    </section>
   )
 }
 

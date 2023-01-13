@@ -6,7 +6,7 @@ import amazon from './video/amazon.mp4'
 import {FiSettings} from 'react-icons/fi'
 export default function Features(props){
     return (
-        <div className='features'>
+        <div className='features' id='features'>
             <div className='get-started'>
                 <div className='started' >
                 <h1>How to get started</h1>
@@ -21,7 +21,7 @@ export default function Features(props){
             </div>
         <div className='video-service'>
         <div className="video">
-        <Video autoPlay loop >
+        <Video autoPlay  >
             <source src={amazon} type='video/webm'/>
         </Video>
         </div>

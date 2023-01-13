@@ -4,8 +4,8 @@ import {FaTwitter, FaFacebook, FaInstagram, FaRegCopyright} from 'react-icons/fa
 
 const Footer = () => {
   return (
-    <footer>
-    <div className='footer'>
+    <footer id='footer'>
+    <div className='footer' >
       <div className='foot-text'>
         <a href='/'>www.criberr.com</a>
       </div>

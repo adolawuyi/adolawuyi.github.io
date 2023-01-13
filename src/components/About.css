@@ -23,12 +23,21 @@
     margin-bottom: 10px;
 }
 .video{
-    border: 5px solid #094AAD;
     margin: auto;
-    border-radius: 5px;
     max-width: 600px;
 }
 
 summary{
     color: #094AAD;
+}
+@media screen and (max-width:940px) {
+    .about-us{
+        margin-top: 50px;
+        display: block;
+        width: 100%;
+    }
+    .video
+    {
+        padding-top: 15px;
+    }
 }

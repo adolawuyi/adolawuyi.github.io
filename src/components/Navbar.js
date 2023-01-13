@@ -7,6 +7,7 @@ import './Navbar.css'
 const Navbar = () => {
     const [click, setClick] = useState(false)
     const handleClick = () => setClick(!click)
+    const closeMenu = () => setClick(false)
   return (
     <div className='header'>
         <nav className="nav">
@@ -17,14 +18,12 @@ const Navbar = () => {
             
         </div>
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-            <li className='nav-item'> <a href='/'>Home</a></li>
-            <li className='nav-item'> <a href='/'>About</a></li>
-            <li className='nav-item'> <a href='/'>Features</a></li>
-            <li className='nav-item'> <a href='/'>Contact</a></li>
-            {/* <CustomLink to="hero" spy={true} smooth={true} duration={500}>Home</CustomLink>
-            <CustomLink to="about" spy={true} smooth={true} duration={500}>About</CustomLink>
-            <CustomLink to="features" spy={true} smooth={true} duration={500}>Features</CustomLink>
-            <CustomLink to="contact" spy={true} smooth={true} duration={500}>Contact</CustomLink> */}
+            <li className='nav-item'> <a href='/' onClick={closeMenu}>Home</a></li>
+            <li className='nav-item'> <a href='#about' onClick={closeMenu}>About</a></li>
+            <li className='nav-item'> <a href='#features' onClick={closeMenu}>Features</a></li>
+            <li className='nav-item'> <a href='#list-form' onClick={closeMenu}>Waitlist</a></li>
+            <li className='nav-item'> <a href='#footer' onClick={closeMenu}>Contact</a></li>
+    
         </ul>
     </nav>
     </div>
