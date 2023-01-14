@@ -2,8 +2,11 @@ const Validation = (values) => {
 
     let errors={};
 
-    if (!values.fullname){
+    if (!values.fullName){
         errors.fullname= "Oops! Name is required"
+    }
+    if (!values.phoneNumber){
+        errors.phoneNumber= "Oops! Phone Number is required"
     }
     if (!values.email){
         errors.email= "Oops! Email is required"

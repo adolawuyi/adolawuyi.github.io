@@ -37,7 +37,7 @@
 
 .name,
 .email,
-.phonenumber {
+.phoneNumber {
     margin: 20px;
     color: var(--primary-dark);
     font-size: 1rem;
