@@ -2,7 +2,7 @@
   "name": "criberr",
   "version": "0.1.0",
   "private": false,
-  "homepage": "http://adolawuyi.github.io/",
+  "homepage": "https://adolawuyi.github.io/",
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^6.2.1",
     "@fortawesome/react-fontawesome": "^0.2.0",
